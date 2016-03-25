@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	int T,ni,V,E;
+	scanf("%d", &T);
+	int vis[60];
+	for (int t = 0; t < T; ++t)
+	{
+		scanf("%d", &ni);
+
+		scanf("%d %d", &V, &E);
+
+		/// vamos criar o grafo usando uma lista de adjacencia
+		memset(vis, 0, sizeof(vis));
+		list<int> adj[V];
+
+		for (int e = 0; e < E; ++e)
+		{
+			/* code */
+		}
+	}
+
+	return 0;
+}
